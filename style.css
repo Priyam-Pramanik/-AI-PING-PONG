@@ -1,0 +1,45 @@
+body
+{
+background-size: cover;
+}
+.information{
+    float: right;
+    font-family: cursive;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 3px 3px 3px black;
+    transition: 0.7s;
+}
+.information:hover{
+    background-color: orange;
+    text-shadow: 0px 0px 0px;
+    color: black;
+}
+.heading{
+    width: 100% ;
+    text-align: left;
+}
+.heading h3{
+    display: inline;
+    font-family:cursive;
+    text-shadow: 3px 3px 3px black;
+}
+#start{
+    font-family: cursive;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 3px 3px 3px black;
+    transition: 0.7s;
+    font-size: 25px;
+}
+#start:hover{
+    background-color: rgb(255, 5, 243);
+    text-shadow: 0px 0px 0px ;
+    color: black;
+}
+#status{
+    font-family: cursive;
+    border: solid 1px black;
+    border-radius: 40px;
+    background-color: yellow;
+    color: rgb(43, 13, 239);
+    font-size: 20px;
+}
